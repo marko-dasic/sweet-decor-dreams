@@ -1,0 +1,408 @@
+window.PLAN = {
+ "reel": "iskra_damir_stitch",
+ "beat": 0.5,
+ "fps": 60,
+ "grade": "brightness(1.03) contrast(0.98) saturate(1.02) sepia(0.03)",
+ "notes": "Windows are [x, y, w] in source pixels (h = w*16/9). keys: [t, x, y, w, ease] with t in seconds from the shot's nominal start (negative = inside the incoming transition); the ease applies to the segment ending at that key. focal -> focal_end is interpolated over the first key segment. Clip windows are in extracted-frame pixels (1152x2048). vf: ffmpeg colour correction applied when the clip window is extracted.",
+ "shots": [
+  {
+   "id": "s01",
+   "asset": "p02",
+   "type": "photo",
+   "src": "media/img/p02.jpg",
+   "w": 1365,
+   "h": 2048,
+   "beats": 4,
+   "in": "cut",
+   "role": "hook",
+   "keys": [
+    [
+     0.0,
+     170,
+     440,
+     864
+    ],
+    [
+     1.4,
+     90,
+     0,
+     1152,
+     "inOutCubic"
+    ],
+    [
+     2.2,
+     118,
+     46,
+     1100,
+     "linear"
+    ]
+   ],
+   "focal": [
+    400,
+    650,
+    580,
+    1000
+   ],
+   "focal_end": [
+    200,
+    603,
+    950,
+    1000
+   ],
+   "must_keep": [
+    [
+     455,
+     860,
+     380,
+     200
+    ]
+   ],
+   "flash": [
+    1.32,
+    0.22
+   ],
+   "sparkle": {
+    "t": 1.25,
+    "box": [
+     455,
+     820,
+     420,
+     300
+    ],
+    "n": 9
+   },
+   "t0": 0.0,
+   "t1": 2.0,
+   "tin": 0.0,
+   "tout": 0.4,
+   "vis0": 0.0,
+   "vis1": 2.2
+  },
+  {
+   "id": "s02",
+   "asset": "p03",
+   "type": "photo",
+   "src": "media/img/p03.jpg",
+   "w": 1365,
+   "h": 2048,
+   "beats": 2,
+   "in": "zoom_through",
+   "role": "detail",
+   "keys": [
+    [
+     -0.2,
+     104,
+     57,
+     1120
+    ],
+    [
+     1.0,
+     206,
+     229,
+     939,
+     "linear"
+    ]
+   ],
+   "focal": [
+    394,
+    818,
+    564,
+    323
+   ],
+   "must_keep": [
+    [
+     394,
+     760,
+     564,
+     400
+    ]
+   ],
+   "t0": 2.0,
+   "t1": 3.0,
+   "tin": 0.4,
+   "tout": 0.0,
+   "vis0": 1.8,
+   "vis1": 3.0
+  },
+  {
+   "id": "s03",
+   "asset": "p04",
+   "type": "photo",
+   "src": "media/img/p04.jpg",
+   "w": 1365,
+   "h": 2048,
+   "beats": 4,
+   "in": "cut",
+   "punch": true,
+   "role": "names",
+   "keys": [
+    [
+     0.0,
+     0,
+     0,
+     939
+    ],
+    [
+     1.85,
+     426,
+     0,
+     939,
+     "inOutSine"
+    ],
+    [
+     2.3,
+     426,
+     12,
+     920,
+     "linear"
+    ]
+   ],
+   "focal": [
+    546,
+    947,
+    330,
+    346
+   ],
+   "must_keep": [
+    [
+     546,
+     947,
+     240,
+     170
+    ]
+   ],
+   "t0": 3.0,
+   "t1": 5.0,
+   "tin": 0.0,
+   "tout": 0.6,
+   "vis0": 3.0,
+   "vis1": 5.3
+  },
+  {
+   "id": "s04",
+   "asset": "p01",
+   "type": "photo",
+   "src": "media/img/p01.jpg",
+   "w": 1536,
+   "h": 2040,
+   "beats": 3,
+   "in": "light_leak",
+   "role": "detail",
+   "grade": "brightness(1.09) contrast(0.99) saturate(1.03) sepia(0.05)",
+   "keys": [
+    [
+     -0.3,
+     233,
+     120,
+     1080
+    ],
+    [
+     1.5,
+     282,
+     275,
+     982,
+     "linear"
+    ]
+   ],
+   "focal": [
+    340,
+    720,
+    870,
+    580
+   ],
+   "must_keep": [
+    [
+     360,
+     740,
+     830,
+     540
+    ]
+   ],
+   "t0": 5.0,
+   "t1": 6.5,
+   "tin": 0.6,
+   "tout": 0.0,
+   "vis0": 4.7,
+   "vis1": 6.5
+  },
+  {
+   "id": "s05",
+   "asset": "v01",
+   "type": "video",
+   "src": "media/clips/v01/0001.jpg",
+   "w": 1152,
+   "h": 2048,
+   "clip": {
+    "id": "v01",
+    "fps": 60,
+    "frames": 175,
+    "start": 7.2667
+   },
+   "clipIn": 7.3,
+   "speed": 1.0,
+   "vf": "colorchannelmixer=rr=0.95:bb=1.02",
+   "beats": 5,
+   "in": "cut",
+   "punch": true,
+   "role": "video",
+   "grade": "brightness(1.04) contrast(1.02) saturate(1.0)",
+   "keys": [
+    [
+     0.0,
+     0,
+     0,
+     1152
+    ],
+    [
+     2.85,
+     46,
+     70,
+     1064,
+     "linear"
+    ]
+   ],
+   "focal": [
+    150,
+    700,
+    850,
+    700
+   ],
+   "must_keep": [],
+   "t0": 6.5,
+   "t1": 9.0,
+   "tin": 0.0,
+   "tout": 0.7,
+   "vis0": 6.5,
+   "vis1": 9.35,
+   "nativeW": 478
+  },
+  {
+   "id": "s06",
+   "asset": "p05",
+   "type": "photo",
+   "src": "media/img/p05.jpg",
+   "w": 2048,
+   "h": 1365,
+   "beats": 6,
+   "in": "arch_reveal",
+   "role": "reveal",
+   "keys": [
+    [
+     -0.35,
+     600,
+     0,
+     768
+    ],
+    [
+     3.0,
+     1075,
+     0,
+     768,
+     "inOutSine"
+    ]
+   ],
+   "focal": [
+    844,
+    300,
+    394,
+    140
+   ],
+   "focal_end": [
+    1305,
+    160,
+    480,
+    640
+   ],
+   "must_keep": [],
+   "sparkle": {
+    "t": 0.25,
+    "box": [
+     1290,
+     40,
+     560,
+     420
+    ],
+    "n": 12
+   },
+   "t0": 9.0,
+   "t1": 12.0,
+   "tin": 0.7,
+   "tout": 0.0,
+   "vis0": 8.65,
+   "vis1": 12.0
+  },
+  {
+   "id": "s07",
+   "asset": "v04",
+   "type": "video",
+   "src": "media/clips/v04/0001.jpg",
+   "w": 1152,
+   "h": 2048,
+   "clip": {
+    "id": "v04",
+    "fps": 60,
+    "frames": 140,
+    "start": 0.2167
+   },
+   "clipIn": 0.25,
+   "speed": 1.0,
+   "vf": "colorchannelmixer=rr=0.94:bb=1.02",
+   "beats": 4,
+   "in": "cut",
+   "role": "second wave",
+   "grade": "brightness(1.04) contrast(1.06) saturate(1.02)",
+   "keys": [
+    [
+     0.0,
+     0,
+     0,
+     1152
+    ],
+    [
+     2.25,
+     36,
+     48,
+     1088,
+     "linear"
+    ]
+   ],
+   "focal": [
+    150,
+    250,
+    850,
+    1200
+   ],
+   "must_keep": [],
+   "t0": 12.0,
+   "t1": 14.0,
+   "tin": 0.0,
+   "tout": 0.5,
+   "vis0": 12.0,
+   "vis1": 14.25,
+   "nativeW": 478
+  },
+  {
+   "id": "end",
+   "type": "endcard",
+   "beats": 6,
+   "in": "soft_dissolve",
+   "bg": "media/img/p05.jpg",
+   "t0": 14.0,
+   "t1": 17.0,
+   "tin": 0.5,
+   "tout": 0.0,
+   "vis0": 13.75,
+   "vis1": 17.0
+  }
+ ],
+ "totalBeats": 34,
+ "total": 17.0,
+ "transitions": {
+  "cut": 0.0,
+  "zoom_through": 0.4,
+  "light_leak": 0.6,
+  "arch_reveal": 0.7,
+  "soft_dissolve": 0.5,
+  "whip": 0.3
+ }
+};

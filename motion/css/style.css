@@ -1,0 +1,55 @@
+/* Cormorant Garamond + Inter, latin and latin-ext subsets (latin-ext holds č ć š ž đ) */
+@font-face { font-family: 'Cormorant'; font-style: normal; font-weight: 500; src: url(../assets/fonts/cormorant-garamond-latin-500-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Cormorant'; font-style: normal; font-weight: 500; src: url(../assets/fonts/cormorant-garamond-latin-ext-500-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Cormorant'; font-style: normal; font-weight: 600; src: url(../assets/fonts/cormorant-garamond-latin-600-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Cormorant'; font-style: normal; font-weight: 600; src: url(../assets/fonts/cormorant-garamond-latin-ext-600-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Cormorant'; font-style: normal; font-weight: 700; src: url(../assets/fonts/cormorant-garamond-latin-700-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Cormorant'; font-style: normal; font-weight: 700; src: url(../assets/fonts/cormorant-garamond-latin-ext-700-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Cormorant'; font-style: italic; font-weight: 500; src: url(../assets/fonts/cormorant-garamond-latin-500-italic.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Cormorant'; font-style: italic; font-weight: 500; src: url(../assets/fonts/cormorant-garamond-latin-ext-500-italic.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Cormorant'; font-style: italic; font-weight: 600; src: url(../assets/fonts/cormorant-garamond-latin-600-italic.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Cormorant'; font-style: italic; font-weight: 600; src: url(../assets/fonts/cormorant-garamond-latin-ext-600-italic.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; src: url(../assets/fonts/inter-latin-400-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 400; src: url(../assets/fonts/inter-latin-ext-400-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; src: url(../assets/fonts/inter-latin-500-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 500; src: url(../assets/fonts/inter-latin-ext-500-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; src: url(../assets/fonts/inter-latin-600-normal.woff2) format('woff2'); unicode-range: U+0000-00FF,U+0131,U+0152-0153,U+02BB-02BC,U+02C6,U+02DA,U+02DC,U+0304,U+0308,U+0329,U+2000-206F,U+20AC,U+2122,U+2191,U+2193,U+2212,U+2215,U+FEFF,U+FFFD; }
+@font-face { font-family: 'Inter'; font-style: normal; font-weight: 600; src: url(../assets/fonts/inter-latin-ext-600-normal.woff2) format('woff2'); unicode-range: U+0100-02BA,U+02BD-02C5,U+02C7-02CC,U+02CE-02D7,U+02DD-02FF,U+0304,U+0308,U+0329,U+1D00-1DBF,U+1E00-1E9F,U+1EF2-1EFF,U+2020,U+20A0-20AB,U+20AD-20C0,U+2113,U+2C60-2C7F,U+A720-A7FF; }
+
+:root {
+  --cream: #FBF7F2; --blush: #F3DCD8; --rose: #D8A7A7; --rose-deep: #B57B7F;
+  --champagne: #E9D8B4; --gold: #C9A96E; --ink: #3E3232;
+}
+html, body { margin: 0; padding: 0; background: var(--cream); overflow: hidden; }
+#stage { position: relative; width: 1080px; height: 1920px; overflow: hidden; background: var(--cream); transform-origin: 0 0; }
+#media, #ui, #tone, #grain, #flash, #fx, #ov, #guides { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; }
+#media { z-index: 1; }
+#fx { z-index: 2; mix-blend-mode: screen; pointer-events: none; }
+#ov { z-index: 2; pointer-events: none; }
+#ui { z-index: 3; }
+#tone { z-index: 4; mix-blend-mode: multiply; pointer-events: none;
+  background: radial-gradient(ellipse 90% 70% at 50% 45%, transparent 60%, rgba(70, 40, 40, .18) 100%); }
+#grain { z-index: 5; mix-blend-mode: overlay; opacity: .06; pointer-events: none; background-repeat: repeat; }
+#flash { z-index: 6; background: #fff8f0; mix-blend-mode: screen; opacity: 0; pointer-events: none; }
+#guides { z-index: 9; pointer-events: none; }
+
+.shot { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; display: none;
+  transform-origin: 540px 864px; background: var(--cream); }
+.shot .crop { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; }
+.shot img { position: absolute; left: 0; top: 0; transform-origin: 0 0; max-width: none; }
+
+/* end card */
+.end { position: absolute; left: 0; top: 0; width: 1080px; height: 1920px; overflow: hidden; display: none; background: var(--cream); }
+.end .bg { position: absolute; left: -120px; top: -120px; width: 1320px; height: 2160px; object-fit: cover; }
+.end .wash { position: absolute; inset: 0; background: rgba(251, 247, 242, .72); }
+.end .blob { position: absolute; border-radius: 50%; }
+.end .el { position: absolute; left: 0; top: 0; opacity: 0; visibility: hidden; will-change: transform; }
+.wordmark { font-family: 'Cormorant', serif; color: var(--ink); text-align: center; line-height: .92; letter-spacing: .01em; white-space: nowrap; }
+.wordmark .l1 { font-weight: 600; display: block; }
+.wordmark .l2 { font-weight: 500; font-style: italic; display: block; color: var(--rose-deep); }
+.goldline { height: 2px; background: linear-gradient(90deg, rgba(201,169,110,0), var(--gold) 18%, var(--gold) 82%, rgba(201,169,110,0)); transform-origin: 50% 50%; }
+.handle { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 50px; color: var(--ink); display: flex; align-items: center; gap: 18px; white-space: nowrap; letter-spacing: .005em; }
+.handle svg { width: 48px; height: 48px; fill: var(--gold); flex: none; }
+.cta { font-family: 'Inter', sans-serif; font-weight: 500; font-size: 44px; color: var(--ink); background: var(--cream);
+  border: 2px solid var(--rose); border-radius: 999px; padding: 22px 40px; white-space: nowrap; letter-spacing: .005em;
+  box-shadow: 0 14px 34px rgba(120, 70, 60, .10); }

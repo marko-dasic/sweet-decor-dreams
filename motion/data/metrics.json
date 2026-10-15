@@ -1,0 +1,443 @@
+{
+ "assets": {
+  "p01": {
+   "sharpness": 637.1,
+   "mean_luma": 134.4,
+   "clipped_pct": 0.92,
+   "crushed_pct": 0.06,
+   "palette": [
+    {
+     "hex": "#817675",
+     "share": 0.31
+    },
+    {
+     "hex": "#695f5e",
+     "share": 0.241
+    },
+    {
+     "hex": "#9a9ca3",
+     "share": 0.239
+    },
+    {
+     "hex": "#cbc1dd",
+     "share": 0.165
+    },
+    {
+     "hex": "#473e3e",
+     "share": 0.046
+    }
+   ],
+   "saliency_box": [
+    12,
+    168,
+    1488,
+    1302
+   ],
+   "faces": []
+  },
+  "p02": {
+   "sharpness": 635.4,
+   "mean_luma": 142.6,
+   "clipped_pct": 0.0,
+   "crushed_pct": 0.01,
+   "palette": [
+    {
+     "hex": "#bb9c8b",
+     "share": 0.411
+    },
+    {
+     "hex": "#ab7e74",
+     "share": 0.306
+    },
+    {
+     "hex": "#785b4e",
+     "share": 0.171
+    },
+    {
+     "hex": "#d9c5b2",
+     "share": 0.073
+    },
+    {
+     "hex": "#342c28",
+     "share": 0.04
+    }
+   ],
+   "saliency_box": [
+    223,
+    32,
+    1119,
+    1541
+   ],
+   "faces": [
+    [
+     225,
+     1452,
+     124,
+     124
+    ]
+   ]
+  },
+  "p03": {
+   "sharpness": 550.5,
+   "mean_luma": 143.4,
+   "clipped_pct": 0.0,
+   "crushed_pct": 0.0,
+   "palette": [
+    {
+     "hex": "#bb8f90",
+     "share": 0.419
+    },
+    {
+     "hex": "#c3aaa9",
+     "share": 0.21
+    },
+    {
+     "hex": "#8a5e4f",
+     "share": 0.175
+    },
+    {
+     "hex": "#a77875",
+     "share": 0.137
+    },
+    {
+     "hex": "#503834",
+     "share": 0.059
+    }
+   ],
+   "saliency_box": [
+    399,
+    80,
+    709,
+    965
+   ],
+   "faces": []
+  },
+  "p04": {
+   "sharpness": 503.1,
+   "mean_luma": 152.9,
+   "clipped_pct": 0.0,
+   "crushed_pct": 0.0,
+   "palette": [
+    {
+     "hex": "#c2a499",
+     "share": 0.409
+    },
+    {
+     "hex": "#b5867f",
+     "share": 0.295
+    },
+    {
+     "hex": "#856b69",
+     "share": 0.155
+    },
+    {
+     "hex": "#dfcec2",
+     "share": 0.086
+    },
+    {
+     "hex": "#443a38",
+     "share": 0.055
+    }
+   ],
+   "saliency_box": [
+    170,
+    37,
+    1135,
+    1882
+   ],
+   "faces": []
+  },
+  "p05": {
+   "sharpness": 455.2,
+   "mean_luma": 126.7,
+   "clipped_pct": 0.02,
+   "crushed_pct": 0.56,
+   "palette": [
+    {
+     "hex": "#cdb0a6",
+     "share": 0.324
+    },
+    {
+     "hex": "#ae8177",
+     "share": 0.246
+    },
+    {
+     "hex": "#1d1d1b",
+     "share": 0.163
+    },
+    {
+     "hex": "#534a4a",
+     "share": 0.139
+    },
+    {
+     "hex": "#7787a4",
+     "share": 0.127
+    }
+   ],
+   "saliency_box": [
+    560,
+    24,
+    1184,
+    1180
+   ],
+   "faces": [
+    [
+     1601,
+     1103,
+     159,
+     159
+    ]
+   ]
+  },
+  "v01": {
+   "sharpness": 25.3,
+   "mean_luma": 106.2,
+   "clipped_pct": 0.08,
+   "crushed_pct": 0.0,
+   "palette": [
+    {
+     "hex": "#aa543a",
+     "share": 0.295
+    },
+    {
+     "hex": "#8f351b",
+     "share": 0.268
+    },
+    {
+     "hex": "#c27762",
+     "share": 0.2
+    },
+    {
+     "hex": "#4f5369",
+     "share": 0.171
+    },
+    {
+     "hex": "#d1a69b",
+     "share": 0.066
+    }
+   ],
+   "saliency_box": [
+    9,
+    7,
+    337,
+    440
+   ],
+   "faces": [],
+   "video_sharpness_median": 329.8,
+   "video_motion_median": 1.85
+  },
+  "v02": {
+   "sharpness": 183.7,
+   "mean_luma": 120.2,
+   "clipped_pct": 0.0,
+   "crushed_pct": 0.04,
+   "palette": [
+    {
+     "hex": "#896252",
+     "share": 0.332
+    },
+    {
+     "hex": "#c3797d",
+     "share": 0.301
+    },
+    {
+     "hex": "#7a493f",
+     "share": 0.164
+    },
+    {
+     "hex": "#373035",
+     "share": 0.103
+    },
+    {
+     "hex": "#cddae1",
+     "share": 0.101
+    }
+   ],
+   "saliency_box": [
+    24,
+    11,
+    380,
+    805
+   ],
+   "faces": [],
+   "video_sharpness_median": 844.0,
+   "video_motion_median": 5.88
+  },
+  "v03": {
+   "sharpness": 190.6,
+   "mean_luma": 117.5,
+   "clipped_pct": 0.01,
+   "crushed_pct": 0.0,
+   "palette": [
+    {
+     "hex": "#8a6758",
+     "share": 0.31
+    },
+    {
+     "hex": "#6b4d38",
+     "share": 0.231
+    },
+    {
+     "hex": "#bf8b85",
+     "share": 0.196
+    },
+    {
+     "hex": "#4d3019",
+     "share": 0.138
+    },
+    {
+     "hex": "#cdd2d1",
+     "share": 0.124
+    }
+   ],
+   "saliency_box": [
+    18,
+    7,
+    429,
+    571
+   ],
+   "faces": [],
+   "video_sharpness_median": 822.0,
+   "video_motion_median": 4.71
+  },
+  "v04": {
+   "sharpness": 99.6,
+   "mean_luma": 129.5,
+   "clipped_pct": 5.96,
+   "crushed_pct": 0.77,
+   "palette": [
+    {
+     "hex": "#907667",
+     "share": 0.317
+    },
+    {
+     "hex": "#c8a9a7",
+     "share": 0.242
+    },
+    {
+     "hex": "#614d3e",
+     "share": 0.164
+    },
+    {
+     "hex": "#2f2116",
+     "share": 0.153
+    },
+    {
+     "hex": "#e9e6e0",
+     "share": 0.123
+    }
+   ],
+   "saliency_box": [
+    20,
+    9,
+    435,
+    622
+   ],
+   "faces": [],
+   "video_sharpness_median": 680.0,
+   "video_motion_median": 3.78
+  }
+ },
+ "near_duplicates": [],
+ "phash_matrix": {
+  "p01": {
+   "p01": 0,
+   "p02": 38,
+   "p03": 32,
+   "p04": 34,
+   "p05": 30,
+   "v01": 28,
+   "v02": 28,
+   "v03": 40,
+   "v04": 30
+  },
+  "p02": {
+   "p01": 38,
+   "p02": 0,
+   "p03": 24,
+   "p04": 24,
+   "p05": 32,
+   "v01": 28,
+   "v02": 28,
+   "v03": 34,
+   "v04": 34
+  },
+  "p03": {
+   "p01": 32,
+   "p02": 24,
+   "p03": 0,
+   "p04": 26,
+   "p05": 30,
+   "v01": 22,
+   "v02": 32,
+   "v03": 34,
+   "v04": 32
+  },
+  "p04": {
+   "p01": 34,
+   "p02": 24,
+   "p03": 26,
+   "p04": 0,
+   "p05": 32,
+   "v01": 32,
+   "v02": 32,
+   "v03": 30,
+   "v04": 28
+  },
+  "p05": {
+   "p01": 30,
+   "p02": 32,
+   "p03": 30,
+   "p04": 32,
+   "p05": 0,
+   "v01": 34,
+   "v02": 34,
+   "v03": 30,
+   "v04": 28
+  },
+  "v01": {
+   "p01": 28,
+   "p02": 28,
+   "p03": 22,
+   "p04": 32,
+   "p05": 34,
+   "v01": 0,
+   "v02": 34,
+   "v03": 26,
+   "v04": 26
+  },
+  "v02": {
+   "p01": 28,
+   "p02": 28,
+   "p03": 32,
+   "p04": 32,
+   "p05": 34,
+   "v01": 34,
+   "v02": 0,
+   "v03": 30,
+   "v04": 36
+  },
+  "v03": {
+   "p01": 40,
+   "p02": 34,
+   "p03": 34,
+   "p04": 30,
+   "p05": 30,
+   "v01": 26,
+   "v02": 30,
+   "v03": 0,
+   "v04": 16
+  },
+  "v04": {
+   "p01": 30,
+   "p02": 34,
+   "p03": 32,
+   "p04": 28,
+   "p05": 28,
+   "v01": 26,
+   "v02": 36,
+   "v03": 16,
+   "v04": 0
+  }
+ }
+}
